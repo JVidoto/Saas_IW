@@ -1,6 +1,6 @@
 body{
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background: radial-gradient(ellipse, #fff, #c98fda, #c12bf7, #6a1d8e, #000);
     margin: 0;
     padding: 0;
 }
@@ -39,12 +39,14 @@ button {
 }
 button:hover {
     background-color: #218838;
+    scale: 1.05;
 }
 button[type="reset"] {
     background-color: #dc3545;
 }
 button[type="reset"]:hover {
     background-color: #c82333;
+    scale: 1.05;
 }
 h1 {
     color: #333;
