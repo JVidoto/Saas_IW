@@ -13,8 +13,9 @@ $senha = $_POST['password'];
     <link rel="shortcut icon" href="../assets/sucesso.png" type="image/x-icon">
 </head>
 <body>
+    <div class="container">
     <h1>Login Successful</h1>
     <p>Olá <?php echo $nome;?>, seja bem vindo :)</p>
-    
+    </div>
 </body>
 </html>
