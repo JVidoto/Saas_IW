@@ -1,3 +1,9 @@
+<?php
+$nome = $_POST['user'];
+$email = $_POST['email'];
+$senha = $_POST['password'];
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,7 +13,7 @@
 </head>
 <body>
     <h1>Login Successful</h1>
-    <p>Welcome, <?php echo htmlspecialchars($_POST['username']); ?>!</p>
+    <p>Olá <?php echo $nome;?>, seja bem vindo :)</p>
     
 </body>
 </html>
