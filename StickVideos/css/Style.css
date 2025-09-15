@@ -1,8 +1,15 @@
 body{
     font-family: Arial, sans-serif;
-    background: radial-gradient(ellipse, #c12bf7, #6a1d8e, #000);
+    background: radial-gradient(circle, #9737ba, #6a1d8e, #4b0758);
     margin: 0;
     padding: 0;
+    background-size: 600% 600%;
+    animation: gradientMove 10s ease infinite;
+}
+@keyframes gradientMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
 }
 .container {
     width: 40%;
