@@ -5,11 +5,12 @@ $senha = $_POST['password'];
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Sucessfull</title>
+    <title>Login Feito com sucesso</title>
+    <link rel="stylesheet" href="../css/Style.css">
+    <link rel="shortcut icon" href="../assets/sucesso.png" type="image/x-icon">
 </head>
 <body>
     <h1>Login Successful</h1>
