@@ -1,10 +1,10 @@
 body{
     font-family: Arial, sans-serif;
-    background: radial-gradient(circle, #de82f5, #8301c9, #9737ba, #6a1d8e, #4b0758, #000);
+    background: radial-gradient(circle, #a649bd, #7003ab, #9737ba, #6e1597, #3f044b, #000);
     margin: 0;
     padding: 0;
     background-size: 600% 600%;
-    animation: gradientMove 5s ease infinite;
+    animation: gradientMove 7.5s ease infinite;
 }
 @keyframes gradientMove {
   0% { background-position: 0% 50%; }
@@ -15,8 +15,8 @@ body{
     width: 40%;
     margin: 100px auto;
     padding: 20px;
-    background-color: #240051;
-    box-shadow: 3 3 4px rgba(0, 0, 0, 0.6);
+    background-color: #6e1597;
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.5);
     border-radius: 20px;
     text-align: center;
     display: flex;
@@ -39,7 +39,7 @@ button {
     margin: 10px;
     border: none;
     border-radius: 5px;
-    background-color: #28a745;
+    background-color: #34da5b;
     color: #ccc;
     font-size: 16px;
     cursor: pointer;
@@ -50,10 +50,10 @@ button:hover {
     scale: 1.05;
 }
 button[type="reset"] {
-    background-color: #dc3545;
+    background-color: #f31329;
 }
 button[type="reset"]:hover {
-    background-color: #c82333;
+    background-color: #ab1e2c;
     scale: 1.05;
 }
 h1 {
