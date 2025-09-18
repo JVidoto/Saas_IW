@@ -4,7 +4,7 @@ body{
     margin: 0;
     padding: 0;
     background-size: 600% 600%;
-    animation: gradientMove 3.5s infinite;
+    animation: gradientMove 3.5s linear infinite;
 }
 @keyframes gradientMove {
   0% { background-position: 0% 50%; }
