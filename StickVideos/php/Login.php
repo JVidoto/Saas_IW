@@ -14,8 +14,28 @@ $senha = $_POST['password'];
 </head>
 <body>
     <div class="container">
-    <h1>Login Successful</h1>
+    <h1>Login Efetuado com sucesso</h1>
     <p>Olá <?php echo $nome;?>, seja bem vindo :)</p>
     </div>
 </body>
 </html>
+<!--php
+$host = 'localhost';
+$user = 'seu_usuario';
+$pass = 'sua_senha';
+$db   = 'nome_do_banco';
+
+$conetcar = new mysqli($host, $user, $pass, $db);
+
+if ($conetcar->connect_error) {
+    die('Erro na conexão: ' . $conetcar->connect_error);
+}
+$sql = "INSERT INTO usuarios (nome, email, senha) VALUES ('$nome', '$email', '$senha')";
+if ($conetcar->query($sql) === TRUE) {
+    echo "Novo registro criado com sucesso";
+} else {
+    echo "Erro: " . $sql . "<br>" . $conetcar->error;
+}
+
+$conetcar->close();
+!-->
