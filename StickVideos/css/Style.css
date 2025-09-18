@@ -15,7 +15,7 @@ body{
     width: 40%;
     margin: 100px auto;
     padding: 20px;
-    background: #ffffff00; 
+    background: #6707746c; 
     backdrop-filter: blur(8px);           
     -webkit-backdrop-filter: blur(8px);
     box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.5);
@@ -35,7 +35,7 @@ input[type="email"], input[type="text"], input[type="password"] {
     background-color: #6e1597;
     border-radius: 5px;
     font-size: 16px;
-    color: #ccc;
+    color: #000;
 }
 button {
     padding: 10px 20px;
