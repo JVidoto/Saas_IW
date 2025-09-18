@@ -4,12 +4,11 @@ body{
     margin: 0;
     padding: 0;
     background-size: 600% 600%;
-    animation: gradientMove 7.5s ease infinite;
+    animation: gradientMove 3.5s ease infinite;
 }
 @keyframes gradientMove {
   0% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
+  100% { background-position: 100% 50%; }
 }
 .container {
     width: 40%;
@@ -36,6 +35,7 @@ input[type="email"], input[type="text"], input[type="password"] {
     border-radius: 5px;
     font-size: 16px;
     color: #000;
+    transition: border-color 0.3s, box-shadow 0.3s;
 }
 button {
     padding: 10px 20px;
