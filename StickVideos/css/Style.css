@@ -15,7 +15,7 @@ body{
     width: 40%;
     margin: 100px auto;
     padding: 20px;
-    background: rgba(255, 255, 255, 0.3); 
+    background: #fff; 
     backdrop-filter: blur(8px);           
     -webkit-backdrop-filter: blur(8px);
     box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.5);
